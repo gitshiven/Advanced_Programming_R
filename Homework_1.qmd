@@ -9,7 +9,7 @@ editor: visual
 
 The **`mpg`** dataset from the `ggplot2` package contains fuel economy data for various car models sold in the US. This dataset includes information such as engine displacement, the number of cylinders, drive type, and fuel efficiency in miles per gallon.
 
-In this document, we will explore the relationship between **engine displacement** and **highway fuel efficiency** using a scatter plot.
+In this document, we will explore the relationship between **engine displacement** and **highway fuel efficiency** using scatter plot.
 
 # Data Visualization
 ```{r, echo=FALSE, warning=FALSE}
