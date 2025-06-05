@@ -12,7 +12,8 @@ The **`mpg`** dataset from the `ggplot2` package contains fuel economy data for 
 In this document, we will explore the relationship between **engine displacement** and **highway fuel efficiency** using a scatter plot.
 
 # Data Visualization
-```{r, echo=FALSE}
+```{r, echo=FALSE, warning=FALSE}
+
 # Load required package
 library(ggplot2)
 
