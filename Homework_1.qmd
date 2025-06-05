@@ -1,0 +1,32 @@
+---
+title: "Homework 1"
+author: "Shiven Singh"
+format: pdf
+editor: visual
+---
+
+# Introduction
+
+The **`mpg`** dataset from the `ggplot2` package contains fuel economy data for various car models sold in the US. This dataset includes information such as engine displacement, the number of cylinders, drive type, and fuel efficiency in miles per gallon.
+
+In this document, we will explore the relationship between **engine displacement** and **highway fuel efficiency** using a scatter plot.
+
+# Data Visualization
+```{r, echo=FALSE}
+# Load required package
+library(ggplot2)
+
+# Scatter plot: Engine Displacement vs. Highway MPG
+ggplot(data = mpg, aes(x = displ, y = hwy)) +
+  geom_point(color = "steelblue", alpha = 0.7, size = 3) +
+  labs(
+    title = "Engine Displacement vs. Highway Fuel Efficiency",
+    x = "Engine Displacement (litres)",
+    y = "Highway MPG"
+  ) +
+  theme_minimal()
+```
+
+# Explanation
+The plot above shows a clear negative relationship between engine displacement and highway fuel efficiency: as the engine size increases, fuel efficiency tends to decrease. This makes intuitive sense, as larger engines generally consume more fuel.
+
